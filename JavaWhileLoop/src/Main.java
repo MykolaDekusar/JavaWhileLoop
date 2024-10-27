@@ -19,7 +19,7 @@ public class Main {
 			cognome=scanner.nextLine();
 		}while(cognome.isBlank());
 		System.out.println("Il tuo cognome è "+cognome);
-		
+		scanner.close();
 	}
 
 }
