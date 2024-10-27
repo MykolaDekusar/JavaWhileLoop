@@ -13,6 +13,12 @@ public class Main {
 		}
 		//inserito il nome la condizione nome.isBlank() diventa falsa ed esco dal ciclo
 		System.out.println("Il tuo nome è "+nome);
+		String cognome="";
+		do {
+			System.out.println("Inserisci un altro nome");
+			cognome=scanner.nextLine();
+		}while(cognome.isBlank());
+		System.out.println("Il tuo cognome è "+cognome);
 		
 	}
 
